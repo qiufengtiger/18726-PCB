@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name FPGA_PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/FPGA_PCB-rescue.lib)(options "")(descr ""))
+)
