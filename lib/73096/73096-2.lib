@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 73096-2
+#
+DEF 73096-2 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "73096-2" 650 200 50 H V L CNN
+F2 "730962" 650 100 50 H I L CNN
+F3 "http://assets.edgenet.com/44f40043-51c7-4f8b-b242-62acf84469a2" 650 0 50 H I L CNN
+F4 "Test Plugs & Test Jacks INLINE 4mm SAFETY JACK PBC MOUNT RED" 650 -100 50 H I L CNN "Description"
+F5 "27.76" 650 -200 50 H I L CNN "Height"
+F6 "Pomona Electronics" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "73096-2" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "565-73096-2" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Pomona-Electronics/73096-2?qs=B6kkDfuK7%2FCLJqVAgh%2FPjQ%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P N
+X 3 3 0 -200 200 R 50 50 0 0 P N
+X 4 4 800 0 200 L 50 50 0 0 P N
+X 5 5 800 -100 200 L 50 50 0 0 P N
+ENDDRAW
+ENDDEF
+#
+#End Library

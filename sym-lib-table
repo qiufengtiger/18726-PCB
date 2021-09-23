@@ -1,3 +1,6 @@
 (sym_lib_table
   (lib (name FPGA_PCB-rescue)(type Legacy)(uri ${KIPRJMOD}/FPGA_PCB-rescue.lib)(options "")(descr ""))
+  (lib (name 73096-2)(type Legacy)(uri ${KIPRJMOD}/lib/73096/73096-2.lib)(options "")(descr ""))
+  (lib (name M3498-99)(type Legacy)(uri ${KIPRJMOD}/lib/M3498-99/KiCAD/M3498-99/M3498-99.lib)(options "")(descr ""))
+  (lib (name CPG08462)(type Legacy)(uri ${KIPRJMOD}/lib/CPG08462/CPG08462.lib)(options "")(descr ""))
 )

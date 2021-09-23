@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name 18726-PCB-master)(type KiCad)(uri ${KIPRJMOD}/18726-PCB-master.pretty)(options "")(descr ""))
+  (lib (name 73096-2)(type KiCad)(uri ${KIPRJMOD}/lib/73096/73096-2.pretty)(options "")(descr ""))
+  (lib (name M3498-99)(type KiCad)(uri ${KIPRJMOD}/lib/M3498-99)(options "")(descr ""))
+  (lib (name CPG08462)(type KiCad)(uri ${KIPRJMOD}/lib/CPG08462/CPG08462.pretty)(options "")(descr ""))
 )
