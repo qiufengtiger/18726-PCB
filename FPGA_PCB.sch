@@ -887,7 +887,7 @@ U 1 1 615D1627
 P 9650 5000
 F 0 "J20" H 9758 5181 50  0000 C CNN
 F 1 "Conn_01x01_Male" H 9758 5090 50  0000 C CNN
-F 2 "" H 9650 5000 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 9650 5000 50  0001 C CNN
 F 3 "~" H 9650 5000 50  0001 C CNN
 	1    9650 5000
 	1    0    0    -1  
@@ -896,4 +896,48 @@ Wire Wire Line
 	9850 5000 10350 5000
 Text Label 10200 5000 0    50   ~ 0
 RST
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 615A752D
+P 5600 950
+F 0 "H1" H 5700 996 50  0000 L CNN
+F 1 "MountingHole" H 5700 905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5600 950 50  0001 C CNN
+F 3 "~" H 5600 950 50  0001 C CNN
+	1    5600 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 615A7BC1
+P 5600 1300
+F 0 "H2" H 5700 1346 50  0000 L CNN
+F 1 "MountingHole" H 5700 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 5600 1300 50  0001 C CNN
+F 3 "~" H 5600 1300 50  0001 C CNN
+	1    5600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 615AD8DC
+P 6500 950
+F 0 "H3" H 6600 996 50  0000 L CNN
+F 1 "MountingHole" H 6600 905 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 950 50  0001 C CNN
+F 3 "~" H 6500 950 50  0001 C CNN
+	1    6500 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 615B3580
+P 6500 1300
+F 0 "H4" H 6600 1346 50  0000 L CNN
+F 1 "MountingHole" H 6600 1255 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 6500 1300 50  0001 C CNN
+F 3 "~" H 6500 1300 50  0001 C CNN
+	1    6500 1300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
