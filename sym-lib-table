@@ -3,4 +3,5 @@
   (lib (name 73096-2)(type Legacy)(uri ${KIPRJMOD}/lib/73096/73096-2.lib)(options "")(descr ""))
   (lib (name M3498-99)(type Legacy)(uri ${KIPRJMOD}/lib/M3498-99/KiCAD/M3498-99/M3498-99.lib)(options "")(descr ""))
   (lib (name CPG08462)(type Legacy)(uri ${KIPRJMOD}/lib/CPG08462/CPG08462.lib)(options "")(descr ""))
+  (lib (name SN74LVC8T245DWR)(type Legacy)(uri ${KIPRJMOD}/lib/SN74LVC8T245DWR/SN74LVC8T245DWR.lib)(options "")(descr ""))
 )

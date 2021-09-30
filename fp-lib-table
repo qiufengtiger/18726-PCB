@@ -2,4 +2,5 @@
   (lib (name 73096-2)(type KiCad)(uri ${KIPRJMOD}/lib/73096/73096-2.pretty)(options "")(descr ""))
   (lib (name M3498-99)(type KiCad)(uri ${KIPRJMOD}/lib/M3498-99)(options "")(descr ""))
   (lib (name CPG08462)(type KiCad)(uri ${KIPRJMOD}/lib/CPG08462/CPG08462.pretty)(options "")(descr ""))
+  (lib (name SN74LVC8T245DWR)(type KiCad)(uri ${KIPRJMOD}/lib/SN74LVC8T245DWR)(options "")(descr ""))
 )
