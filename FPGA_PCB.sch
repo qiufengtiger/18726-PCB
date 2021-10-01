@@ -999,7 +999,7 @@ Wire Wire Line
 Wire Wire Line
 	15250 5600 14600 5600
 Text Label 12650 1200 0    50   ~ 0
-VDDPST
+1.8V
 Text Label 12650 1100 0    50   ~ 0
 3.3V
 Text Label 12500 1900 0    50   ~ 0
@@ -1046,11 +1046,11 @@ VSS
 Text Label 14850 3100 0    50   ~ 0
 VSS
 Text Label 12650 3600 0    50   ~ 0
-VDDPST
+1.8V
 Text Label 12650 3700 0    50   ~ 0
 3.3V
 Text Label 12650 4100 0    50   ~ 0
-VDDPST
+1.8V
 Text Label 14850 5400 0    50   ~ 0
 VSS
 Text Label 14850 5500 0    50   ~ 0
@@ -1456,7 +1456,7 @@ Wire Wire Line
 Connection ~ 2000 5350
 Connection ~ 2400 5350
 Wire Notes Line
-	5750 9050 650  9050
+	5750 9850 650  9850
 Wire Notes Line
 	650  4950 5750 4950
 Wire Notes Line
@@ -1517,7 +1517,7 @@ Wire Wire Line
 Wire Wire Line
 	12300 3950 12300 3500
 Text Label 12300 3850 0    50   ~ 0
-VDDPST
+1.8V
 Wire Wire Line
 	12400 4200 13200 4200
 Text Label 12300 4750 0    50   ~ 0
@@ -1562,10 +1562,6 @@ Text Label 4400 8750 0    50   ~ 0
 VSS
 Wire Wire Line
 	1900 8550 2300 8550
-Wire Notes Line
-	5750 4950 5750 9050
-Wire Notes Line
-	650  4950 650  9050
 Wire Wire Line
 	2300 8550 2300 8500
 $Comp
@@ -1667,7 +1663,7 @@ S 10500 6400 1600 2400
 U 616A0D85
 F0 "IOLeverShifter" 50
 F1 "IO_Level_Shifter.sch" 50
-F2 "VDDPST" I L 10500 6650 50 
+F2 "1.8V" I L 10500 6650 50 
 F3 "3.3V" I L 10500 6800 50 
 F4 "VSS" O R 12100 6650 50 
 $EndSheet
@@ -1705,9 +1701,101 @@ Wire Notes Line
 Wire Notes Line
 	9350 3100 9350 5200
 Text Label 9900 6650 0    50   ~ 0
-VDDPST
+1.8V
 Text Label 9900 6800 0    50   ~ 0
 3.3V
 Text Label 12450 6650 0    50   ~ 0
 VSS
+$Comp
+L Connector:Conn_01x01_Male J46
+U 1 1 616A5AFE
+P 1700 9450
+F 0 "J46" H 1808 9631 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 1808 9540 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 1700 9450 50  0001 C CNN
+F 3 "~" H 1700 9450 50  0001 C CNN
+	1    1700 9450
+	1    0    0    -1  
+$EndComp
+Text Label 2450 9450 0    50   ~ 0
+1.8V
+$Comp
+L Connector:Conn_Coaxial J47
+U 1 1 616A5B09
+P 4400 9200
+F 0 "J47" H 4500 9175 50  0000 L CNN
+F 1 "Conn_Coaxial" H 4500 9084 50  0000 L CNN
+F 2 "Connector_Coaxial:BNC_TEConnectivity_1478204_Vertical" H 4400 9200 50  0001 C CNN
+F 3 " ~" H 4400 9200 50  0001 C CNN
+	1    4400 9200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 9200 3600 9200
+Wire Wire Line
+	4400 9400 4400 9800
+Text Label 3750 9200 0    50   ~ 0
+1.8V
+Text Label 4400 9650 0    50   ~ 0
+VSS
+Wire Wire Line
+	1900 9450 2300 9450
+Wire Wire Line
+	2300 9450 2300 9400
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 616A5B19
+P 2300 9400
+F 0 "#FLG0104" H 2300 9475 50  0001 C CNN
+F 1 "PWR_FLAG" H 2300 9573 50  0000 C CNN
+F 2 "" H 2300 9400 50  0001 C CNN
+F 3 "~" H 2300 9400 50  0001 C CNN
+	1    2300 9400
+	1    0    0    -1  
+$EndComp
+Connection ~ 2300 9450
+Wire Wire Line
+	2300 9450 2650 9450
+Wire Notes Line
+	650  4950 650  9850
+Wire Notes Line
+	5750 4950 5750 9850
+Wire Wire Line
+	11850 5050 11850 4750
+Wire Wire Line
+	11850 5350 11850 5600
+Text Label 11850 4950 0    50   ~ 0
+1.8V
+Text Label 11850 5500 0    50   ~ 0
+VSS
+$Comp
+L Device:C C23
+U 1 1 6173A5CC
+P 11850 5200
+F 0 "C23" H 11965 5246 50  0000 L CNN
+F 1 "100p" H 11965 5155 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11888 5050 50  0001 C CNN
+F 3 "~" H 11850 5200 50  0001 C CNN
+	1    11850 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12100 2750 12100 2450
+Wire Wire Line
+	12100 3050 12100 3300
+Text Label 12100 2650 0    50   ~ 0
+1.8V
+Text Label 12100 3200 0    50   ~ 0
+VSS
+$Comp
+L Device:C C24
+U 1 1 61752167
+P 12100 2900
+F 0 "C24" H 12215 2946 50  0000 L CNN
+F 1 "100p" H 12215 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12138 2750 50  0001 C CNN
+F 3 "~" H 12100 2900 50  0001 C CNN
+	1    12100 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

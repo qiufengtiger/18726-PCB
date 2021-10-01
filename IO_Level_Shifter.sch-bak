@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 1150 850  0    50   Input ~ 0
-VDDPST
+1.8V
 Text HLabel 1150 950  0    50   Input ~ 0
 3.3V
 Text HLabel 2550 850  2    50   Output ~ 0
@@ -88,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	1250 1850 1250 1400
 Text Label 1300 850  0    50   ~ 0
-VDDPST
+1.8V
 Text Label 1300 950  0    50   ~ 0
 3.3V
 Text Label 2200 850  0    50   ~ 0
@@ -188,64 +188,64 @@ Wire Wire Line
 $Comp
 L Device:C C19
 U 1 1 6170A9B4
-P 10350 1350
-F 0 "C19" H 10465 1396 50  0000 L CNN
-F 1 "100p" H 10465 1305 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10388 1200 50  0001 C CNN
-F 3 "~" H 10350 1350 50  0001 C CNN
-	1    10350 1350
+P 10400 1600
+F 0 "C19" H 10515 1646 50  0000 L CNN
+F 1 "100p" H 10515 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10438 1450 50  0001 C CNN
+F 3 "~" H 10400 1600 50  0001 C CNN
+	1    10400 1600
 	1    0    0    -1  
 $EndComp
-Text Label 10350 1650 0    50   ~ 0
+Text Label 10400 1900 0    50   ~ 0
 VSS
-Text Label 10350 1100 0    50   ~ 0
+Text Label 10400 1350 0    50   ~ 0
 3.3V
 Wire Wire Line
-	10350 1500 10350 1750
+	10400 1750 10400 2000
 Wire Wire Line
-	10350 1200 10350 900 
+	10400 1450 10400 1150
 $Comp
 L Device:C C22
 U 1 1 61708E93
-P 10450 4850
-F 0 "C22" H 10565 4896 50  0000 L CNN
-F 1 "100p" H 10565 4805 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10488 4700 50  0001 C CNN
-F 3 "~" H 10450 4850 50  0001 C CNN
-	1    10450 4850
+P 10400 4700
+F 0 "C22" H 10515 4746 50  0000 L CNN
+F 1 "100p" H 10515 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10438 4550 50  0001 C CNN
+F 3 "~" H 10400 4700 50  0001 C CNN
+	1    10400 4700
 	1    0    0    -1  
 $EndComp
-Text Label 10450 5150 0    50   ~ 0
+Text Label 10400 5000 0    50   ~ 0
 VSS
-Text Label 10450 4600 0    50   ~ 0
+Text Label 10400 4450 0    50   ~ 0
 3.3V
 Wire Wire Line
-	10450 5000 10450 5250
+	10400 4850 10400 5100
 Wire Wire Line
-	10450 4700 10450 4400
+	10400 4550 10400 4250
 $Comp
 L Device:C C21
 U 1 1 617058A9
-P 10450 3700
-F 0 "C21" H 10565 3746 50  0000 L CNN
-F 1 "100p" H 10565 3655 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10488 3550 50  0001 C CNN
-F 3 "~" H 10450 3700 50  0001 C CNN
-	1    10450 3700
+P 10400 3700
+F 0 "C21" H 10515 3746 50  0000 L CNN
+F 1 "100p" H 10515 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10438 3550 50  0001 C CNN
+F 3 "~" H 10400 3700 50  0001 C CNN
+	1    10400 3700
 	1    0    0    -1  
 $EndComp
-Text Label 10450 4000 0    50   ~ 0
+Text Label 10400 4000 0    50   ~ 0
 VSS
-Text Label 10450 3450 0    50   ~ 0
+Text Label 10400 3450 0    50   ~ 0
 3.3V
 Wire Wire Line
-	10450 3850 10450 4100
+	10400 3850 10400 4100
 Wire Wire Line
-	10450 3550 10450 3250
+	10400 3550 10400 3250
 Text Label 2650 1700 0    50   ~ 0
 3.3V
 Text Label 2650 1800 0    50   ~ 0
-VDDPST
+1.8V
 Text Label 2650 2300 0    50   ~ 0
 VSS
 $Comp
@@ -325,7 +325,7 @@ Wire Wire Line
 Text Label 6700 1700 0    50   ~ 0
 3.3V
 Text Label 6700 1800 0    50   ~ 0
-VDDPST
+1.8V
 Text Label 6700 2300 0    50   ~ 0
 VSS
 $Comp
@@ -405,7 +405,7 @@ Wire Wire Line
 Text Label 2650 4150 0    50   ~ 0
 3.3V
 Text Label 2650 4250 0    50   ~ 0
-VDDPST
+1.8V
 Text Label 2650 4750 0    50   ~ 0
 VSS
 $Comp
@@ -483,7 +483,7 @@ Wire Wire Line
 Text Label 6700 4150 0    50   ~ 0
 3.3V
 Text Label 6700 4250 0    50   ~ 0
-VDDPST
+1.8V
 Text Label 6700 4750 0    50   ~ 0
 VSS
 Wire Wire Line
@@ -893,4 +893,80 @@ Text Label 3250 7100 0    50   ~ 0
 dir2
 Text Label 3250 7200 0    50   ~ 0
 dir3
+$Comp
+L Device:C C26
+U 1 1 61783856
+P 10850 2650
+F 0 "C26" H 10965 2696 50  0000 L CNN
+F 1 "100p" H 10965 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10888 2500 50  0001 C CNN
+F 3 "~" H 10850 2650 50  0001 C CNN
+	1    10850 2650
+	1    0    0    -1  
+$EndComp
+Text Label 10850 2950 0    50   ~ 0
+VSS
+Text Label 10850 2400 0    50   ~ 0
+1.8V
+Wire Wire Line
+	10850 2800 10850 3050
+Wire Wire Line
+	10850 2500 10850 2200
+$Comp
+L Device:C C25
+U 1 1 61783864
+P 10850 1600
+F 0 "C25" H 10965 1646 50  0000 L CNN
+F 1 "100p" H 10965 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10888 1450 50  0001 C CNN
+F 3 "~" H 10850 1600 50  0001 C CNN
+	1    10850 1600
+	1    0    0    -1  
+$EndComp
+Text Label 10850 1900 0    50   ~ 0
+VSS
+Text Label 10850 1350 0    50   ~ 0
+1.8V
+Wire Wire Line
+	10850 1750 10850 2000
+Wire Wire Line
+	10850 1450 10850 1150
+$Comp
+L Device:C C28
+U 1 1 61783872
+P 10850 4700
+F 0 "C28" H 10965 4746 50  0000 L CNN
+F 1 "100p" H 10965 4655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10888 4550 50  0001 C CNN
+F 3 "~" H 10850 4700 50  0001 C CNN
+	1    10850 4700
+	1    0    0    -1  
+$EndComp
+Text Label 10850 5000 0    50   ~ 0
+VSS
+Text Label 10850 4450 0    50   ~ 0
+1.8V
+Wire Wire Line
+	10850 4850 10850 5100
+Wire Wire Line
+	10850 4550 10850 4250
+$Comp
+L Device:C C27
+U 1 1 61783880
+P 10850 3700
+F 0 "C27" H 10965 3746 50  0000 L CNN
+F 1 "100p" H 10965 3655 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 10888 3550 50  0001 C CNN
+F 3 "~" H 10850 3700 50  0001 C CNN
+	1    10850 3700
+	1    0    0    -1  
+$EndComp
+Text Label 10850 4000 0    50   ~ 0
+VSS
+Text Label 10850 3450 0    50   ~ 0
+1.8V
+Wire Wire Line
+	10850 3850 10850 4100
+Wire Wire Line
+	10850 3550 10850 3250
 $EndSCHEMATC
